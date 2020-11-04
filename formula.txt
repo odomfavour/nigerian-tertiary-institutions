@@ -1,0 +1,5 @@
+https://universitycompass.com/universities/universities-in-Nigeria.php
+
+table = document.querySelector(class name of table)
+
+table.querySelectorAll('tbody td').forEach((e, index)=> { if(index % 2 == 0){console.log( {"index": index/2, "data": e.innerText })}})
